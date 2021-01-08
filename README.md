@@ -270,3 +270,4 @@ TERMINUSDB_DOCKER="podman" ./terminusdb-container [COMMAND]
 
 See the source code to find the other environment variables that can be set.
 
+# myDev

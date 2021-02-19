@@ -58,7 +58,7 @@ if [[ -n $TERMINUSDB_CONSOLE_BASE_URL ]]; then
 else
   case "$TERMINUSDB_QUICKSTART_TAG" in
     "rc")
-      TERMINUSDB_QUICKSTART_CONSOLE_BASE_URL="https://dl.bintray.com/terminusdb/terminusdb/rc"
+      TERMINUSDB_QUICKSTART_CONSOLE_BASE_URL="https://unpkg.com/@terminusdb/terminusdb-console@4.2.0/console/dist/"
     ;;
     "canary")
       TERMINUSDB_QUICKSTART_CONSOLE_BASE_URL="https://dl.bintray.com/terminusdb/terminusdb/canary"
